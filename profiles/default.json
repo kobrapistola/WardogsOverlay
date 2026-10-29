@@ -1,0 +1,104 @@
+{
+  "Name": "Default",
+  "ProcessNames": [
+    "WARDOGS-Win64-Shipping",
+    "WARDOGS"
+  ],
+  "WindowTitle": "WARDOGS",
+  "ReferenceWidth": 5120,
+  "ReferenceHeight": 1440,
+  "AutoHideWhenGameNotFocused": false,
+  "Segments": [
+    {
+      "Name": "Minimap",
+      "Color": "#C80014",
+      "Enabled": true,
+      "SrcX": 42,
+      "SrcY": 993,
+      "SrcW": 343,
+      "SrcH": 303,
+      "DestCenterX": 1963,
+      "DestCenterY": 1262,
+      "Scale": 0.5,
+      "Opacity": 100
+    },
+    {
+      "Name": "Teams & Points",
+      "Color": "#FFE628",
+      "Enabled": true,
+      "SrcX": 42,
+      "SrcY": 1301,
+      "SrcW": 342,
+      "SrcH": 84,
+      "DestCenterX": 2577,
+      "DestCenterY": 1291,
+      "Scale": 0.5,
+      "Opacity": 100
+    },
+    {
+      "Name": "Fire Mode & Zeroing",
+      "Color": "#14A0FF",
+      "Enabled": true,
+      "SrcX": 4762,
+      "SrcY": 1264,
+      "SrcW": 100,
+      "SrcH": 68,
+      "DestCenterX": 3287,
+      "DestCenterY": 818,
+      "Scale": 0.5,
+      "Opacity": 100
+    },
+    {
+      "Name": "Ammo",
+      "Color": "#1EC85A",
+      "Enabled": true,
+      "SrcX": 4863,
+      "SrcY": 1233,
+      "SrcW": 216,
+      "SrcH": 100,
+      "DestCenterX": 3289,
+      "DestCenterY": 867,
+      "Scale": 0.5,
+      "Opacity": 100
+    },
+    {
+      "Name": "Money: Match Balance",
+      "Color": "#F0F0F0",
+      "Enabled": true,
+      "SrcX": 4800,
+      "SrcY": 26,
+      "SrcW": 143,
+      "SrcH": 40,
+      "DestCenterX": 3093,
+      "DestCenterY": 1359,
+      "Scale": 0.75,
+      "Opacity": 100
+    },
+    {
+      "Name": "Money: Total",
+      "Color": "#202020",
+      "Enabled": true,
+      "SrcX": 4954,
+      "SrcY": 26,
+      "SrcW": 139,
+      "SrcH": 40,
+      "DestCenterX": 3093,
+      "DestCenterY": 1390,
+      "Scale": 0.75,
+      "Opacity": 100
+    },
+    {
+      "Name": "Health & Armor",
+      "Color": "#FF9EC8",
+      "Enabled": true,
+      "SrcX": 4783,
+      "SrcY": 1341,
+      "SrcW": 305,
+      "SrcH": 42,
+      "DestCenterX": 2822,
+      "DestCenterY": 1300,
+      "Scale": 0.7,
+      "Opacity": 100
+    }
+  ]
+}

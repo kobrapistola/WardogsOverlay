@@ -1,0 +1,12 @@
+C:\Users\RICKY\Desktop\WarDogsOverlay\bin\Release\net10.0-windows\win-x64\WarDogsOverlay.exe
+C:\Users\RICKY\Desktop\WarDogsOverlay\bin\Release\net10.0-windows\win-x64\WarDogsOverlay.deps.json
+C:\Users\RICKY\Desktop\WarDogsOverlay\bin\Release\net10.0-windows\win-x64\WarDogsOverlay.runtimeconfig.json
+C:\Users\RICKY\Desktop\WarDogsOverlay\bin\Release\net10.0-windows\win-x64\WarDogsOverlay.dll
+C:\Users\RICKY\Desktop\WarDogsOverlay\obj\Release\net10.0-windows\win-x64\WarDogsOverlay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RICKY\Desktop\WarDogsOverlay\obj\Release\net10.0-windows\win-x64\WarDogsOverlay.AssemblyInfoInputs.cache
+C:\Users\RICKY\Desktop\WarDogsOverlay\obj\Release\net10.0-windows\win-x64\WarDogsOverlay.AssemblyInfo.cs
+C:\Users\RICKY\Desktop\WarDogsOverlay\obj\Release\net10.0-windows\win-x64\WarDogsOverlay.csproj.CoreCompileInputs.cache
+C:\Users\RICKY\Desktop\WarDogsOverlay\obj\Release\net10.0-windows\win-x64\WarDogsOverlay.dll
+C:\Users\RICKY\Desktop\WarDogsOverlay\obj\Release\net10.0-windows\win-x64\refint\WarDogsOverlay.dll
+C:\Users\RICKY\Desktop\WarDogsOverlay\obj\Release\net10.0-windows\win-x64\WarDogsOverlay.genruntimeconfig.cache
+C:\Users\RICKY\Desktop\WarDogsOverlay\obj\Release\net10.0-windows\win-x64\ref\WarDogsOverlay.dll

@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>WarDogsOverlay</AssemblyName>
+    <RootNamespace>WarDogsOverlay</RootNamespace>
+
+    <!-- Physical-pixel coordinates everywhere, so crops line up at any Windows scaling. -->
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+
+    <!-- Single .exe. Framework-dependent keeps it small (needs the .NET 10 Desktop Runtime).
+         Pass -p:SelfContained=true to build.bat's publish line for a no-install exe (~70 MB). -->
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>false</SelfContained>
+    <DebugType>embedded</DebugType>
+
+    <!-- Privacy: don't bake this PC's folder paths (e.g. C:\Users\<you>\...) into the exe. -->
+    <PathMap>$(MSBuildProjectDirectory)=.</PathMap>
+    <Deterministic>true</Deterministic>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <Company>WarDogsOverlay</Company>
+    <Authors>WarDogsOverlay contributors</Authors>
+  </PropertyGroup>
+
+  <!-- Release builds (build.bat / Publish) ship with no debug info at all. -->
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="profiles\default.json" LogicalName="default.json" />
+    <EmbeddedResource Include="profiles\default.png" LogicalName="default.png" />
+  </ItemGroup>
+
+</Project>
